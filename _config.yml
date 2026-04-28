@@ -1,0 +1,95 @@
+# The Site Configuration
+
+# Import the theme
+theme: jekyll-theme-starter
+
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
+lang: en
+
+# Change to your timezone › https://zones.arilyn.cc
+timezone: America/New_York
+
+
+# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# ↓ --------------------------
+
+title: My Website # Site Main Title
+
+tagline: Simple Jekyll Starter Theme # Site Subtitle
+
+description: >- # used by seo meta and the atom feed
+  Simple starter template for GitHub Pages website.
+
+author: CoolV1994 # Site Author
+
+# Fill in the protocol & hostname for your site.
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+#url: "https://gawdsite.github.io"
+
+# Fill in the sub-directory for your site.
+# E.g. '/repo-name', note that it does not end with a '/'.
+#baseurl: "/jekyll-theme-starter"
+
+
+
+# Post Pagination Settings
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
+
+# Additional Collections of Posts
+collections:
+  albums:
+    output: true
+    url: /albums/
+    template: media
+
+
+
+# Default Values per Path
+defaults:
+  - scope:
+      path: "" # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      #permalink: /posts/:title/
+  - scope:
+      path: ""
+    values:
+      layout: page
+      #permalink: /:title/
+  - scope:
+      path: "docs"
+    values:
+      layout: document
+      #permalink: /docs/:title/
+
+
+
+# Include Paths when Rendering
+include:
+  - _pages
+
+
+
+# Exclude Files when Rendering
+exclude:
+  - assets
+  - README.md
+  - LICENSE
+
+
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
