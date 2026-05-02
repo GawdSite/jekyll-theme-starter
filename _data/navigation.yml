@@ -1,0 +1,60 @@
+# Example Links Section
+#
+# section:
+#   Link: /page
+#   External: https://website.com/
+#   Anchor: "#section"
+#   Script: javascript:function(var)
+
+#------------------------------------------------------------
+
+# Header Navbar
+header:
+  Home: /
+  Blog:
+    Posts: /blog
+    Categories: /blog/categories
+    Tags: /blog/tags
+    Archive: /blog/archive
+  Album: /album
+  About: /about
+  Contact: /contact
+
+#------------------------------------------------------------
+
+# Footer Navbar
+footer:
+  Home: /
+  GitHub: https://github.com/GawdSite/jekyll-theme-starter
+  Top: "#top"
+
+#------------------------------------------------------------
+
+# Share on Social
+share:
+  Copy Link: javascript:clipboardCopy('{{URL}}')
+  Print: 
+  Email: mailto:?subject=Site Name: {{TITLE}}&body=Check out this article: {{URL}}
+  Facebook: https://www.facebook.com/sharer/sharer.php?u={{URL}}
+  Twitter: https://twitter.com/intent/tweet?url={{URL}}&text={{TITLE}}
+  LinkedIn: https://linkedin.com/sharing/share-offsite/?url={{URL}}
+  Reddit: https://www.reddit.com/submit?url={{URL}}&title={{TITLE}}
+
+#------------------------------------------------------------
+
+# Social Media
+social:
+  Facebook: https://facebook.com/
+  Twitter: https://twitter.com/
+  Instagram: https://instagram.com/
+  YouTube: https://youtube.com/
+  GitHub: https://github.com/
+
+#------------------------------------------------------------
+
+# Donations
+donate:
+  Cash App: https://paypal.com/
+  Venmo: https://paypal.com/
+  PayPal: https://paypal.com/
+
