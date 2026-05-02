@@ -1,0 +1,38 @@
+# Contact Page
+
+hours:
+  Monday: 9 AM - 5 PM
+  Tuesday: 9 AM - 5 PM
+  Wednesday: 9 AM - 5 PM
+  Thursday: 9 AM - 5 PM
+  Friday: 9 AM - 5 PM
+  Saturday: 12 PM - 3 PM
+  Sunday: 12 PM - 3 PM
+
+
+links:
+  Online Chat: /chat
+  Help Center: /support
+  FAQ: /faq
+
+
+email:
+  Support: help@mail.com
+  Business: sales@mail.com
+  Employee: user@mail.com
+
+
+phone:
+  Main Office: +1 (555) 555-5555
+  Fax: +1 (555) 555-5555
+  Employee: +1 (555) 555-5555, extension 987
+
+
+address:
+  Office: >
+    Company Name
+    P.O. Box 123
+    1234 Main St.
+    City State, Zip
+    Country
+
