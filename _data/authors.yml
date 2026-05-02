@@ -1,0 +1,44 @@
+# Author: Sample_User
+#
+# Sample_User:
+#   name: First Last
+#   avatar: /assets/img/avatar/default.png
+#   avatar: https://gravatar.com/avatar/__HASH__?s=80 # __HASH__ == SHA256(EMAIL)
+#   title: Site Admin
+#   email: username@email.com
+#   links:
+#     Website: https://website.com/Username
+#     Facebook: https://facebook.com/Username
+#     Twitter: https://twitter.com/Username
+#   about: >
+#     Information about this user.
+#     Second line of about text.
+
+#------------------------------------------------------------
+
+GawdTech:
+  name: Gawd Tech
+  avatar: https://gravatar.com/avatar/917286cac180448ab4cb1ee4f3717b6529f2aec61de0ee09d03c1ecea0d03362
+  title: Staff Account
+  email: GawdTechInc@gmail.com
+  links:
+    Website: https://GawdTech.github.io/
+    Facebook: https://facebook.com/GawdTech
+  about: >
+    Gawd Tech is an IT company started by CoolV1994.
+    This is the company account that is hosting this templates repo.
+
+#------------------------------------------------------------
+
+CoolV1994:
+  name: Vinnie
+  avatar: https://gravatar.com/avatar/6f247b6fcb30755500937825409de7fd47809af8175d0137133b09456ea14098
+  title: Site Owner
+  email: The.CoolV1994@gmail.com
+  links:
+    Website: https://CoolV1994.github.io/
+    Facebook: https://facebook.com/CoolV1994
+  about: >
+    I am a web designer, computer programmer, and owner of Gawd Tech.
+    I am the creator of this website template and samples.
+
